@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dodge the Falling Objects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Dodge the Falling Objects!</h1>
+    <p>Score: <span id="score">0</span></p>
+    <p>Lives: <span id="lives">3</span></p>
+    <div id="game-area">
+      <div id="player"></div>
+    </div>
+    <div id="game-over" class="hidden">
+      <h2>Game Over!</h2>
+      <p>Final Score: <span id="final-score">0</span></p>
+      <button id="restart-button">Play Again</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
